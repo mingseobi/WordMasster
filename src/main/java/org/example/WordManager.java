@@ -34,8 +34,8 @@ public class WordManager {
                 System.out.print("\n프로그램 종료! 다음에 만나요~");
                 break;
             }
-            if(menu == 4) {
-                wordCRUD.addWord();
+            else if(menu == 4) {
+                wordCRUD.addItem();
             }
 
             else if(menu == 1) {
@@ -47,7 +47,7 @@ public class WordManager {
             }
 
             else if(menu == 6) {
-                wordCRUD.listAll();
+                wordCRUD.deleteItem();
             }
 
         }
