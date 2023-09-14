@@ -94,7 +94,7 @@ public class WordCRUD implements ICRUD{
         String meaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(meaning);
-        System.out.println("단어가 수정되었습니다. ");
+        System.out.println("\n단어 수정이 성공적으로 되었습니다. \n");
     }
 
     public void deleteItem() {
@@ -109,7 +109,7 @@ public class WordCRUD implements ICRUD{
         String ans = s.next();
         if(ans.equalsIgnoreCase("y")) {
             list.remove((int)idlist.get(id-1));
-            System.out.println("단어가 삭제되었습니다. ");
+            System.out.println("\n단어가 성공적으로 삭제되었습니다. \n");
         } else
             System.out.println("취소되었습니다. ");
     }
@@ -153,7 +153,7 @@ public class WordCRUD implements ICRUD{
     }
 
     public void searchLevel() {
-        System.out.print("=> 원하는 레벨은? (1~3) ");
+        System.out.print("=> 원하는 레벨은? (1:초급, 2:중급, 3:고급) 선택 : ");
         int level = s.nextInt();
         listAll(level);
     }
