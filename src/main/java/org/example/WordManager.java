@@ -51,6 +51,10 @@ public class WordManager {
                 wordCRUD.deleteItem();
             }
 
+            else if(menu == 7) {
+                wordCRUD.saveFile();
+            }
+
         }
     }
 }
