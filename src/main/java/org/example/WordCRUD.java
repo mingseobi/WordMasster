@@ -15,7 +15,7 @@ public class WordCRUD implements ICRUD{
     }
     @Override
     public Object add() {
-        System.out.print("=> 난이도(1, 2, 3) & 새 단어 입력 : ");
+        System.out.print("=> 레벨(1, 2, 3) & 새 단어 입력 : ");
         int level = s.nextInt();
         String word = s.nextLine();
 
@@ -145,7 +145,7 @@ public class WordCRUD implements ICRUD{
                 pr.write(one.toFileString() + "\n");
             }
             pr.close();
-            System.out.println("==> 데이터 저장 완료 !!!");
+            System.out.println("\n==> 데이터 저장 완료 !!!\n");
 
         } catch (IOException e) {
             e.printStackTrace();
