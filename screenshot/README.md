@@ -18,6 +18,7 @@
 ### ■ [파일읽기] 프로그램 시작 시 데이터파일로부터 단어 목록을 읽어 등록하는 기능은 잘 실행되는가?
 <img src="https://github.com/mingseobi/WordMasster/assets/122345560/ed6bcef7-925c-4e50-a91e-a32fb905eb0a" width="100%"></img>
 ### ■ [파일저장] 프로그램에서 변경된 모든 단어 목록을 데이터파일에 새로 저장하기 기능은 잘 실행되는가?
+<img src="https://github.com/mingseobi/WordMasster/assets/122345560/76347dea-6197-4fca-8869-2892986f1133" width="100%"></img>
 
 ## HW2 전체 실행 예시 과정입니다.
 <img src="https://github.com/mingseobi/WordMasster/assets/122345560/e9597264-498c-478d-af8b-157bee24afb2" width="100%"></img>
